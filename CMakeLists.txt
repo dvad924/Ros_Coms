@@ -48,6 +48,9 @@ find_package(catkin REQUIRED
    FILES
    bbox.msg
    bbox_array.msg
+   conf.msg
+   Face_array.msg
+   Face.msg
  )
 
 ## Generate services in the 'srv' folder
