@@ -1,3 +1,4 @@
 ---
 int64 diffx
 int64 diffy
+bool exists

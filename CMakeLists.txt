@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(Ros_Coms)
+project(ros_coms)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -57,6 +57,7 @@ find_package(catkin REQUIRED
  add_service_files(
    FILES
    Movement.srv
+   TSCamAction.srv
  )
 
 ## Generate actions in the 'action' folder
